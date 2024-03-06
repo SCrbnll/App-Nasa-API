@@ -1,6 +1,5 @@
 import React, {FC} from "react";
 import {View, Text, StyleSheet, Image, Button} from 'react-native';
-import Constants from 'expo-constants'
 
 import { PostImage } from "../../types";
 
@@ -52,7 +51,6 @@ const styles = StyleSheet.create({
     button: {
         alignItems: 'center',
         color: '#FFFFFF'
-    
-      }
+    }
 })
 export default TodaysImage;
